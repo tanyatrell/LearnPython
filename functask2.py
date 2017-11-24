@@ -6,6 +6,7 @@ def get_answer(question):
 	'пока': 'Увидимся'}
 	return answers[question]
 
+#тестовый код для гита
 
 result = get_answer(input('Введите вопрос: '))
 print(result)
